@@ -1,0 +1,286 @@
+*{
+    margin:0;
+    padding:0;
+    overflow-x: hidden;
+}
+.informationHref:hover{
+    cursor: pointer;
+    
+}
+.h1Versus{
+    height: 239px;
+    display: flex;
+    align-items: center;
+    width: 30px;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+}
+.aAdd a{
+    text-decoration: none;
+    font-family: 'Lobster', cursive;
+    font-weight: 300;
+    display: block;
+    color:rgb(68, 68, 68);
+    padding: 10px;
+    /* background: #9fc4fc; */
+    border:1px solid black;
+    transition: 0.25s all;
+    
+}
+.aAdd a:hover{
+    background-color: rgb(68, 68, 68);
+    border:none;
+    color:white;
+}
+.aAdd{
+    margin-top: 20px;
+    
+}
+.fasemash{
+
+    width: 100%;
+    padding:20px;
+    font-size: 45px;
+    background-color:#790606;
+    color:rgb(243, 232, 232);
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 0.23em;
+    text-align: center;
+}
+.B{
+    font-size: 55px;
+}
+.item{
+    background-color:#790606;
+    position:fixed;
+}
+.item-1{
+    left:0;
+    top:-50px;
+    width: 5px;
+    height: 110vh;
+}
+.item-2{
+    right:0;
+    top:-50px;
+    width: 5px;
+    height: 110vh;
+}
+.item-3{
+    bottom:0;
+    width: 100vw;
+    height: 5px;
+}
+.sayHi{
+    width:95%;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    
+    font-weight: 200;
+    padding: 15px 0px;
+    /* margin-left:7px;
+    margin-right:7px; */
+    word-spacing: 0.5em;
+}
+.hotText{
+    font-size: 30px;
+}
+
+section{
+    margin: 0 auto;
+    margin-top:40px;
+    width:600px;
+    justify-content: center;
+    display:flex;
+    /* flex-direction: row; */
+}
+.information{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    margin: 0 auto;
+    
+    
+}
+.modalItem{
+    position: fixed;
+    top:0;
+    left:0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(165, 165, 165,0.3);
+    transition: 0.75s all;
+}
+.helloEveryone{
+    width:60%;
+    /* height: 60%; */
+    background-color: #fff;
+    border-radius: 10px;
+}
+.asmus{
+    width:93%;
+    margin:0 auto;
+    font-weight: 100;
+    font-family: 'Pacifico', cursive;
+    
+
+}
+.asmus1{
+    width: 100%;
+    text-align: center;
+    font-size:22px;
+    margin-top:10px;
+}
+.asmus2{
+    font-size: 18px;
+}
+.button{
+    display:block;
+    width:50%;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: rgb(250, 62, 62);
+    border:1px solid black;
+    transition: 0.2s all;
+}
+.TopTen{
+    display:block;
+    width:30%;
+    margin: 0 auto;
+    padding: 10px;
+    color:#fff;
+    background-color:  rgb(185, 39, 39);
+    border:1px solid black;
+    transition: 0.2s all;
+
+}
+.TopTen:hover{
+    cursor:pointer;
+    background-color: #790606;;
+}
+.button:hover{
+    cursor:pointer;
+    transform: scale(1.1);
+    
+}
+.bmstu{
+    color: rgb(250, 62, 62);
+}
+.table {
+	width: 100%;
+	margin-bottom: 20px;
+	border: 1px solid #dddddd;
+    border-collapse: collapse; 
+    display:none;
+    transition: 1s all;
+}
+.table th {
+	font-weight: bold;
+	padding: 5px;
+	background: #efefef;
+	border: 1px solid #dddddd;
+}
+.table td {
+	border: 1px solid #dddddd;
+	padding: 5px;
+}
+.table-footer{
+    width:70%;
+}
+.TopPhoto{
+    width: 70px;
+    height: 70px;
+}
+.flexTr{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.scoreCenter{
+    text-align: center;
+}
+.TopTen span{
+   
+    
+    font-size: 15px;
+    margin-left: 8px;
+    transition: 0.4s all;
+    display: inline-block;
+    
+}
+.rotate{
+    transform: rotate(180deg);
+}
+.showTable{
+    display: inline-block;
+}
+.vkGo{
+    color:rgb(155, 6, 6);
+    /* text-decoration: none; */
+    transition: 0.3s all;
+}
+.vkGo:hover{
+    cursor: pointer;
+    color: rgb(250, 62, 62);
+}
+/* .photoCenter{
+    width: 70%;;
+} */
+@media all and (max-width: 650px){
+    
+    .sayHi{
+        font-size:24px;
+    }
+    .hotText{
+        font-size:27px;
+    }
+}
+
+@media all and (max-width: 575px){
+    
+    .sayHi{
+        font-size:24px;
+    }
+    .hotText{
+        font-size:27px;
+    }
+    section{
+        flex-direction: column;
+        width: 400px;
+    }
+    .h1Versus{
+        width: 400px;
+        margin-top:15px;
+        margin-bottom:15px;
+        height: 30px;
+        /* text-align: center; */
+        justify-content: center;
+    }
+    .fasemash{
+        font-size: 24px;
+        width: 90%;
+        margin:0 auto;
+    }
+    .B{
+        font-size: 38px;
+    }
+}
+@media all and (max-width: 500px){
+    section{
+        width: 300px;
+        margin: 0 auto;
+    }
+    .h1Versus{
+        width: 300px;
+        margin: 0 auto;
+        margin-top: 7px;
+        margin-bottom: 7px;
+    }
+}
